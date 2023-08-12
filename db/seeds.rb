@@ -3,7 +3,7 @@ Weapon.create(name: 'PDW-57(SMG)', image_url: 'PDW-57.png', description: '弾数
 Weapon.create(name: 'Vector K10(SMG)', image_url: 'Vector K10.png', description: 'とても使いやすいSMG。でもこれ使うならMP7使う')
 Weapon.create(name: 'MSMC(SMG)', image_url: 'MSMC.png', description: '近距離最強クラス。SMGで1番使った。')
 Weapon.create(name: 'Chicom CQB(SMG)', image_url: 'Chicom CQB.png', description: 'カスタムクラスにあったからプレステージ回した後にチャレンジしてた。')
-Weapon.create(name: 'Skorpion EVO III(SMG)', image_url: 'Skorpion EVO III.png', description: '暴れすぎて嫌い')
+Weapon.create(name: 'Skorpion EVO III(SMG)', image_url: 'Skorpion.png', description: '暴れすぎて嫌い')
 Weapon.create(name: 'Peacekeeper(SMG)', image_url: 'Peacekeeper.png', description: '課金武器。落ちてたら使う。')
 Weapon.create(name: 'MTAR(AR)', image_url: 'MTAR.png', description: '普通に使いやすいAR。特徴がないのが特徴。')
 Weapon.create(name: 'Type 25(AR)', image_url: 'Type 25.png', description: 'SMGっぽいAR。SMGでよくね？')
