@@ -1,0 +1,8 @@
+<h1>青春時代、BO2で武器選びに悩んだあなたへ</h1>
+
+<%= form_tag(root_path, method: "get") do %>
+  <%= label_tag :user_name, "あなたの名前を教えてください:" %>
+  <%= text_field_tag :user_name, @user_name %>
+  <%= submit_tag "送信" %>
+<% end %>
+

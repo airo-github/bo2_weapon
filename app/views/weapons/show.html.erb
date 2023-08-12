@@ -1,0 +1,6 @@
+<h2><%= "#{@user_name}さんが使用する武器はこちらです" %></h2>
+<p>武器名: <%= @recommended_weapon.name %></p>
+<p>解説: <%= @recommended_weapon.description %></p>
+<%= image_tag @recommended_weapon.image_url, alt: @recommended_weapon.name, class: "weapon-image" %>
+<p><%= link_to "再抽選", root_path(user_name: @user_name), class: "draw-again-button" %><p>
+<p><%= link_to "Twitter投稿リンク", "https://twitter.com/intent/tweet?text=#{@user_name}さんがBO2で使用する武器は「#{@recommended_weapon.name}」です", target: "_blank" %></p>
